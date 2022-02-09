@@ -1,27 +1,28 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Kalle Pyörälä | AzurInspire',
+  author: 'Kalle Pyörälä',
+  headerTitle: 'AzurInspire',
+  description:
+    'Professional developer since 1999. Currently working mostly with VueJS & Nuxt, ReactJS & NextJS, React Native & Expo, Laravel, PostgreSQL, Serverless. Actively learning Web3.',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  image: '/static/images/avatar.png',
+  siteUrl: 'https://www.azurinspire.com',
+  siteRepo: 'https://github.com/azurinspire/azurinspire-com',
+  siteLogo: '/static/images/azurinspire.svg',
+  image: '/static/images/kalle.pyorala.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  email: 'kalle.pyorala@azurinspire.com',
+  github: 'https://github.com/azurinspire',
+  twitter: 'https://twitter.com/AzurInspire',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  linkedin: 'https://www.linkedin.com/in/azurinspire',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
+    umamiWebsiteId: '47cbdf9c-78ca-465c-ba26-293e135bed2e', //" src="https://azurinspire-analytics.vercel.app/umami.js"
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
@@ -73,4 +74,4 @@ const siteMetadata = {
   },
 }
 
-module.exports = siteMetadata
+export default siteMetadata
