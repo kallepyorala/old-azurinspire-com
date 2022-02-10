@@ -14,7 +14,7 @@ interface Props {
 }
 
 const LayoutWrapper = ({ children }: Props) => {
-  const { theme } = useTheme()
+  const { resolvedTheme } = useTheme()
   const [mounted, setMounted] = useState(false)
   useEffect(() => setMounted(true), [])
 
@@ -26,7 +26,7 @@ const LayoutWrapper = ({ children }: Props) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-                  {mounted && theme === 'dark' ? (
+                  {mounted && resolvedTheme === 'dark' ? (
                     <DarkLogo key="dark-logo" />
                   ) : (
                     <Logo key="light-logo" />
