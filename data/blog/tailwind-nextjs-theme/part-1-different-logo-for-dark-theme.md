@@ -1,5 +1,5 @@
 ---
-title: Modify Tailwind NextJS theme, part 1: Different logo for dark theme
+title: 'Modify Tailwind NextJS theme, part 1: Different logo for dark theme'
 date: '2022-02-10'
 tags: ['nextjs', 'tailwind', 'react', 'tailwind-nextjs-starter-blog']
 draft: false
@@ -16,7 +16,7 @@ First thing I needed to change was my logo, which is partly black and doesn’t 
 
 ## Different logo for dark theme
 
-First I added [inverted version](https://github.com/azurinspire/azurinspire-com/blob/7642b7fccda87a52e2fef4b705aea9c1fab87a15/data/dark-logo.svg) of my logo to `data` folder. And then only thing modify is `components/LayoutWrapper.tsx`:
+First I added [inverted version](https://github.com/azurinspire/azurinspire-com/blob/7642b7fccda87a52e2fef4b705aea9c1fab87a15/data/dark-logo.svg) of my logo to `data` folder. And then only thing to modify is `components/LayoutWrapper.tsx`:
 
 ```tsx
 ...
@@ -56,4 +56,4 @@ const LayoutWrapper = ({ children }: Props) => {
     ...
 ```
 
-And that’s all, now inverted logo is shown where theme is dark!
+And that’s all, now inverted logo is shown where theme is dark! You can test this by changing theme from upper right corner and see how the logo is partly white in dark theme and partly black in light theme.
