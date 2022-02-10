@@ -1,16 +1,18 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+name: Kalle Pyörälä
+avatar: /static/images/kalle.pyorala.jpg
+occupation: Full Stack Developer
+company: AzurInspire
+email: kalle.pyorala@azurinspire.com
+twitter: https://twitter.com/AzurInspire
+linkedin: https://www.linkedin.com/in/azurinspire
+github: https://github.com/azurinspire
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+Hi, I’m Kalle Pyörälä, professional full stack developer since 1999. I’m from Finland but I’ve been living in France for ten years now.
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+In my recent [projects](/projects) I’ve been using React, VueJS and Typescript for front end and Laravel and Postgres for backends. I have also developed couple of mobile applications with React Native.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I'm currently available for hire and I'm interested in poth part time and full time propositions. I do only remote work from my home office and I am employee of salary portal [Embarq](https://www.embarq.fr), which can invoice my work internationally.
+
+Check my CV and [book a meeting](https://outlook.office365.com/owa/calendar/AzurInspire@NETORGFT7956644.onmicrosoft.com/bookings/), see you soon!
