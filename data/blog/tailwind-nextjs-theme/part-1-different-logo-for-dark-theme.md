@@ -1,6 +1,6 @@
 ---
 title: 'Modify Tailwind NextJS theme, part 1: Different logo for dark theme'
-date: '2022-02-10'
+date: '2022-02-11'
 tags: ['nextjs', 'tailwind', 'react', 'tailwind-nextjs-starter-blog']
 draft: false
 summary: How to show different logo when theme is dark
