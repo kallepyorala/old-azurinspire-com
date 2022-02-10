@@ -1,9 +1,9 @@
 const siteMetadata = {
   title: 'Kalle Pyörälä | AzurInspire',
   author: 'Kalle Pyörälä',
-  headerTitle: 'AzurInspire',
+  headerTitle: null,
   description:
-    'Professional developer since 1999. Currently working mostly with VueJS & Nuxt, ReactJS & NextJS, React Native & Expo, Laravel, PostgreSQL, Serverless. Actively learning Web3.',
+    'Professional developer since 1999. Currently working mostly with VueJS & Nuxt, ReactJS & NextJS, Svelte, React Native & Expo, Laravel, PostgreSQL, Serverless. Actively learning Web3.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.azurinspire.com',
@@ -17,6 +17,7 @@ const siteMetadata = {
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/azurinspire',
+  instagram: 'https://www.instagram.com/kallepyorala',
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics

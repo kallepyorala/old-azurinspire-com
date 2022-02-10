@@ -1,19 +1,17 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'SkillFactory',
+    description: 'Lead developer and devops of SkillFactory',
+    stack: 'VueJS, IntertiaJS, Laravel, Postgres, Laravel Vapor, Github Actions',
+    imgSrc: '/static/images/skillfactory.png',
+    href: '/blog/projects/skillfactory',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'SafetyPass',
+    description: 'Lead Mobile and API deloper of Safetypass',
+    stack: 'React Native, Expo, Swagger, Laravel, PostgreSQL, Gitlab CI',
+    imgSrc: '/static/images/safetypass.png',
+    href: '/blog/projects/safetypass',
   },
 ]
 
