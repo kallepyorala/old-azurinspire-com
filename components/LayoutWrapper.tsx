@@ -1,18 +1,23 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
+import DarkLogo from '@/data/dark-logo.svg'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
+import { ReactNode, useEffect, useState } from 'react'
+import { useTheme } from 'next-themes'
 import ThemeSwitch from './ThemeSwitch'
-import { ReactNode } from 'react'
-
 interface Props {
   children: ReactNode
 }
 
 const LayoutWrapper = ({ children }: Props) => {
+  const { theme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+  useEffect(() => setMounted(true), [])
+
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
@@ -21,7 +26,11 @@ const LayoutWrapper = ({ children }: Props) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-                  <Logo />
+                  {mounted && theme === 'dark' ? (
+                    <DarkLogo key="dark-logo" />
+                  ) : (
+                    <Logo key="light-logo" />
+                  )}
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
