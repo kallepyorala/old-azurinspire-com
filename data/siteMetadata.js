@@ -21,9 +21,9 @@ const siteMetadata = {
   locale: 'en-US',
   analytics: {
     // supports plausible, simpleAnalytics, umami or googleAnalytics
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'azurinspire.com', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
-    umamiWebsiteId: '47cbdf9c-78ca-465c-ba26-293e135bed2e', //" src="https://azurinspire-analytics.vercel.app/umami.js"
+    umamiWebsiteId: '',
     googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
