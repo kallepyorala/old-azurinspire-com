@@ -10,7 +10,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/azurinspire/azurinspire-com',
   siteLogo: '/static/images/azurinspire.svg',
   image: '/static/images/kalle.pyorala.jpg',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/share-card.png',
   email: 'kalle.pyorala@azurinspire.com',
   github: 'https://github.com/azurinspire',
   twitter: 'https://twitter.com/AzurInspire',
