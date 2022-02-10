@@ -69,6 +69,18 @@ module.exports = withBundleAnalyzer({
       },
     ]
   },
+  async rewrites() {
+    return [
+      {
+        source: '/plausible/js/script.js',
+        destination: 'https://plausible.io/js/plausible.js',
+      },
+      {
+        source: '/plausible/api/event',
+        destination: 'https://plausible.io/api/event',
+      },
+    ]
+  },
   webpack: (config, { dev, isServer }) => {
     config.module.rules.push({
       test: /\.(png|jpe?g|gif|mp4)$/i,
