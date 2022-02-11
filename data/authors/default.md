@@ -15,4 +15,4 @@ In my recent [projects](/projects) I’ve been using React, VueJS and Typescript
 
 I'm currently available for hire and I'm interested in both part time and full time propositions. I do only remote work from my home office and I am employee of salary portal [Embarq](https://www.embarq.fr), which can invoice my work internationally.
 
-Check my CV and [book a meeting](https://outlook.office365.com/owa/calendar/AzurInspire@NETORGFT7956644.onmicrosoft.com/bookings/), see you soon!
+<a href="/static/pdf/CV.Kalle.Pyorala.pdf" download>Download my CV</a> and [book a meeting](https://calendly.com/azurinspire/meeting), see you soon!
